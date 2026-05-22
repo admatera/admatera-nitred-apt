@@ -9,25 +9,25 @@
     "molecular_weight": "62.005",
     "xlogp": "-1.4",
     "charge": -1,
-    "structure_note": "",
-    "epa_primary_standard_mgL": "",
-    "who_guideline_mgL": "",
-    "regulatory_notes": "",
-    "usgs_param_codes": "",
-    "common_analytical_methods": "",
-    "common_field_sensors": "",
-    "phys_signal_proxies": "",
-    "primary_sources": "",
+    "structure_note": "Trigonal planar oxyanion; dominant oxidized inorganic nitrogen species in oxygenated waters.",
+    "epa_primary_standard_mgL": "10 mg/L as N",
+    "who_guideline_mgL": "50 mg/L as nitrate ion",
+    "regulatory_notes": "EPA primary drinking-water standard is 10 mg/L as N. WHO guideline is 50 mg/L as nitrate ion; where nitrate and nitrite co-occur, the sum of concentration-to-guideline ratios should not exceed 1.",
+    "usgs_param_codes": "00618: nitrate, dissolved, mg/L as N; 00620: nitrate, unfiltered, mg/L as N; 00631: nitrite plus nitrate, dissolved, mg/L as N",
+    "common_analytical_methods": "Ion chromatography; cadmium-reduction colorimetry; UV spectrophotometric nitrate analysis.",
+    "common_field_sensors": "In situ UV nitrate sensors; online UV absorbance nitrate analyzers.",
+    "phys_signal_proxies": "Direct nitrate concentration; nitrate-to-nitrite ratio; nitrate with dissolved oxygen and redox context; nitrate rise following ammonia oxidation.",
+    "primary_sources": "EPA NPDWR; WHO nitrate/nitrite guidance; PubChem; USGS nutrient parameter references",
     "source_links": "",
-    "last_verified_utc": "2026-02-16T22:34:45.818571+00:00",
-    "notes": "",
+    "last_verified_utc": "2026-05-03T00:00:00Z",
+    "notes": "Default Nitred regulatory and monitoring display should use mg/L as N; chemical identity remains NO₃⁻.",
     "tile_row": 1,
     "tile_col": 1,
     "tile_group": "n_species",
-    "display_formula_html": "NO<sub>3</sub><sup>\u2212</sup>",
+    "display_formula_html": "NO<sub>3</sub><sup>−</sup>",
     "species_type": "inorganic anion",
-    "charge_display": "\u22121",
-    "display_formula": "NO\u2083\u207b"
+    "charge_display": "−1",
+    "display_formula": "NO₃⁻"
   },
   {
     "slug": "nitrite",
@@ -39,29 +39,29 @@
     "molecular_weight": "46.006",
     "xlogp": "",
     "charge": -1,
-    "structure_note": "",
-    "epa_primary_standard_mgL": "",
-    "who_guideline_mgL": "",
-    "regulatory_notes": "",
-    "usgs_param_codes": "",
-    "common_analytical_methods": "",
-    "common_field_sensors": "",
-    "phys_signal_proxies": "",
-    "primary_sources": "",
+    "structure_note": "Reactive intermediate nitrogen oxyanion formed during nitrification and denitrification pathways.",
+    "epa_primary_standard_mgL": "1 mg/L as N",
+    "who_guideline_mgL": "3 mg/L as nitrite ion",
+    "regulatory_notes": "EPA primary drinking-water standard is 1 mg/L as N. WHO guideline is 3 mg/L as nitrite ion; where nitrate and nitrite co-occur, the sum of concentration-to-guideline ratios should not exceed 1.",
+    "usgs_param_codes": "00613: nitrite, dissolved, mg/L as N; 00631: nitrite plus nitrate, dissolved, mg/L as N",
+    "common_analytical_methods": "Ion chromatography; diazotization colorimetry; laboratory nutrient-panel nitrite analysis.",
+    "common_field_sensors": "Online wet-chemistry nitrite analyzers; colorimetric process analyzers used in treatment and distribution monitoring.",
+    "phys_signal_proxies": "Transient nitrite spike; falling free ammonia with rising nitrite; nitrite followed by nitrate increase during active nitrification.",
+    "primary_sources": "EPA NPDWR; WHO nitrate/nitrite guidance; PubChem; USGS nutrient parameter references",
     "source_links": "",
-    "last_verified_utc": "2026-02-17T02:14:52.364907",
-    "notes": "",
+    "last_verified_utc": "2026-05-03T00:00:00Z",
+    "notes": "Nitrite is the acute nitrification warning species in drinking-water systems and should remain highly visible in Nitred logic.",
     "tile_row": 1,
     "tile_col": 2,
     "tile_group": "n_species",
-    "display_formula_html": "NO<sub>2</sub><sup>\u2212</sup>",
+    "display_formula_html": "NO<sub>2</sub><sup>−</sup>",
     "species_type": "inorganic anion",
-    "charge_display": "\u22121",
-    "display_formula": "NO\u2082\u207b"
+    "charge_display": "−1",
+    "display_formula": "NO₂⁻"
   },
   {
     "slug": "ammonium",
-    "preferred_name": "Ammonium",
+    "preferred_name": "Ammonium / Ammonia",
     "pubchem_cid": "223",
     "cas_rn": "14798-03-9",
     "contaminant_class": "inorganic_ion",
@@ -69,25 +69,25 @@
     "molecular_weight": "18.039",
     "xlogp": "-0.7",
     "charge": 1,
-    "structure_note": "",
+    "structure_note": "Reduced inorganic nitrogen pool represented here as NH₄⁺, while operational behavior is governed by the NH₄⁺/NH₃ system.",
     "epa_primary_standard_mgL": "",
     "who_guideline_mgL": "",
-    "regulatory_notes": "",
-    "usgs_param_codes": "",
-    "common_analytical_methods": "",
-    "common_field_sensors": "",
-    "phys_signal_proxies": "",
-    "primary_sources": "",
+    "regulatory_notes": "No federal EPA primary drinking-water MCL is listed for ammonia/ammonium in the primary standards table. In drinking-water operations, free ammonia availability is important because it can drive nitrification, with subsequent nitrite and nitrate formation in chloraminated systems.",
+    "usgs_param_codes": "00608: ammonia, dissolved, mg/L as N; 00623: ammonia plus organic nitrogen, dissolved, mg/L as N; 00625: ammonia plus organic nitrogen, unfiltered, mg/L as N",
+    "common_analytical_methods": "Phenate colorimetry; ammonia ion-selective electrode methods; laboratory ammonia-nitrogen analysis in nutrient panels.",
+    "common_field_sensors": "Ammonia ion-selective electrodes; online ammonia analyzers; process monitors used in nitrification control workflows.",
+    "phys_signal_proxies": "Free ammonia availability; chlorine-to-ammonia-N ratio; pH- and temperature-driven NH₄⁺/NH₃ shift; downstream nitrite rise during nitrification onset.",
+    "primary_sources": "EPA nitrification guidance; WHO nitrate/nitrite guidance; PubChem; USGS nutrient parameter references",
     "source_links": "",
-    "last_verified_utc": "2026-02-16T22:34:45.818571+00:00",
-    "notes": "",
+    "last_verified_utc": "2026-05-03T00:00:00Z",
+    "notes": "Conjugate acid–base pair with NH₃; aqueous speciation shifts with pH and temperature.",
     "tile_row": 1,
     "tile_col": 3,
     "tile_group": "n_species",
     "display_formula_html": "NH<sub>4</sub><sup>+</sup>",
     "species_type": "inorganic cation",
     "charge_display": "+1",
-    "display_formula": "NH\u2084\u207a"
+    "display_formula": "NH₄⁺"
   },
   {
     "slug": "lead_ii",
@@ -117,7 +117,7 @@
     "display_formula_html": "Pb<sup>2+</sup>",
     "species_type": "metal cation",
     "charge_display": "+2",
-    "display_formula": "Pb\u00b2\u207a"
+    "display_formula": "Pb²⁺"
   },
   {
     "slug": "arsenate",
@@ -144,10 +144,10 @@
     "tile_row": 2,
     "tile_col": 2,
     "tile_group": "toxic_metal",
-    "display_formula_html": "AsO<sub>4</sub><sup>3\u2212</sup>",
+    "display_formula_html": "AsO<sub>4</sub><sup>3−</sup>",
     "species_type": "metalloid oxyanion",
-    "charge_display": "\u22123",
-    "display_formula": "AsO\u2084\u00b3\u207b"
+    "charge_display": "−3",
+    "display_formula": "AsO₄³⁻"
   },
   {
     "slug": "fluoride",
@@ -174,10 +174,10 @@
     "tile_row": 3,
     "tile_col": 3,
     "tile_group": "background_ion",
-    "display_formula_html": "F<sup>\u2212</sup>",
+    "display_formula_html": "F<sup>−</sup>",
     "species_type": "inorganic anion",
-    "charge_display": "\u22121",
-    "display_formula": "F\u207b"
+    "charge_display": "−1",
+    "display_formula": "F⁻"
   },
   {
     "slug": "phosphate",
@@ -204,10 +204,10 @@
     "tile_row": 1,
     "tile_col": 4,
     "tile_group": "p_species",
-    "display_formula_html": "PO<sub>4</sub><sup>3\u2212</sup>",
+    "display_formula_html": "PO<sub>4</sub><sup>3−</sup>",
     "species_type": "inorganic anion",
-    "charge_display": "\u22123",
-    "display_formula": "PO\u2084\u00b3\u207b"
+    "charge_display": "−3",
+    "display_formula": "PO₄³⁻"
   },
   {
     "slug": "tkn_total_n",
@@ -263,10 +263,10 @@
     "tile_row": 1,
     "tile_col": 5,
     "tile_group": "p_species",
-    "display_formula_html": "PO<sub>4</sub><sup>3\u2212</sup>",
+    "display_formula_html": "PO<sub>4</sub><sup>3−</sup>",
     "species_type": "inorganic anion",
-    "charge_display": "\u22123",
-    "display_formula": "PO\u2084\u00b3\u207b"
+    "charge_display": "−3",
+    "display_formula": "PO₄³⁻"
   },
   {
     "slug": "toc",
@@ -322,10 +322,10 @@
     "tile_row": 2,
     "tile_col": 3,
     "tile_group": "toxic_metal",
-    "display_formula_html": "CrO<sub>4</sub><sup>2\u2212</sup>",
+    "display_formula_html": "CrO<sub>4</sub><sup>2−</sup>",
     "species_type": "metal oxyanion",
-    "charge_display": "\u22122",
-    "display_formula": "CrO\u2084\u00b2\u207b"
+    "charge_display": "−2",
+    "display_formula": "CrO₄²⁻"
   },
   {
     "slug": "cadmium_ii",
@@ -355,7 +355,7 @@
     "display_formula_html": "Cd<sup>2+</sup>",
     "species_type": "metal cation",
     "charge_display": "+2",
-    "display_formula": "Cd\u00b2\u207a"
+    "display_formula": "Cd²⁺"
   },
   {
     "slug": "mercury_ii",
@@ -385,7 +385,7 @@
     "display_formula_html": "Hg<sup>2+</sup>",
     "species_type": "metal cation",
     "charge_display": "+2",
-    "display_formula": "Hg\u00b2\u207a"
+    "display_formula": "Hg²⁺"
   },
   {
     "slug": "copper_ii",
@@ -415,7 +415,7 @@
     "display_formula_html": "Cu<sup>2+</sup>",
     "species_type": "metal cation",
     "charge_display": "+2",
-    "display_formula": "Cu\u00b2\u207a"
+    "display_formula": "Cu²⁺"
   },
   {
     "slug": "manganese_ii",
@@ -445,7 +445,7 @@
     "display_formula_html": "Mn<sup>2+</sup>",
     "species_type": "metal cation",
     "charge_display": "+2",
-    "display_formula": "Mn\u00b2\u207a"
+    "display_formula": "Mn²⁺"
   },
   {
     "slug": "chloride",
@@ -472,10 +472,10 @@
     "tile_row": 3,
     "tile_col": 1,
     "tile_group": "background_ion",
-    "display_formula_html": "Cl<sup>\u2212</sup>",
+    "display_formula_html": "Cl<sup>−</sup>",
     "species_type": "inorganic anion",
-    "charge_display": "\u22121",
-    "display_formula": "Cl\u207b"
+    "charge_display": "−1",
+    "display_formula": "Cl⁻"
   },
   {
     "slug": "sulfate",
@@ -502,10 +502,10 @@
     "tile_row": 3,
     "tile_col": 2,
     "tile_group": "background_ion",
-    "display_formula_html": "SO<sub>4</sub><sup>2\u2212</sup>",
+    "display_formula_html": "SO<sub>4</sub><sup>2−</sup>",
     "species_type": "inorganic anion",
-    "charge_display": "\u22122",
-    "display_formula": "SO\u2084\u00b2\u207b"
+    "charge_display": "−2",
+    "display_formula": "SO₄²⁻"
   },
   {
     "slug": "pfos",
@@ -565,7 +565,7 @@
     "display_formula_html": "C<sub>8</sub>HF<sub>15</sub>O<sub>2</sub>",
     "species_type": "pfas",
     "charge_display": "",
-    "display_formula": "C8HF15O\u2082"
+    "display_formula": "C8HF15O₂"
   },
   {
     "slug": "atrazine",
@@ -595,7 +595,7 @@
     "display_formula_html": "C<sub>8</sub>H<sub>14</sub>ClN<sub>5</sub>",
     "species_type": "pesticide",
     "charge_display": "",
-    "display_formula": "C8H14ClN\u2085"
+    "display_formula": "C8H14ClN₅"
   },
   {
     "slug": "benzene",
@@ -625,6 +625,6 @@
     "display_formula_html": "C<sub>6</sub>H<sub>6</sub>",
     "species_type": "volatile organic",
     "charge_display": "",
-    "display_formula": "C6H\u2086"
+    "display_formula": "C6H₆"
   }
 ]
